@@ -1,2 +1,2 @@
 # Number-casing-game
-This is a simple program for number casing game .
+This is a cli based  number casing game .
