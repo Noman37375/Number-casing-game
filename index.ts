@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
-const realNumber = Math.floor(Math.random()*10+1);
+const realNumber = Math.floor(Math.random() * 10 + 1);
 const answer = await inquirer.prompt([
   {
     name: "userGuessNumber",
@@ -16,4 +16,3 @@ if (answer.userGuessNumber === realNumber) {
     "You guessed the wrong  number! The correct number is " + realNumber
   );
 }
-
